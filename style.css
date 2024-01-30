@@ -1,12 +1,9 @@
-let js = "amazing";
-if (js === "amazing") alert("JavaScript is Funnnn!");
-
-console.log (100 - 50 + 5);
+/*console.log(100 - 50 + 10);
 
 console.log("Yogeesh");
 
-let firstName = "Darshan";
-console.log(firstName);
+let firstName = "Darshan"; // CODE COMMENTING
+console.log(firstName); //  VARIABLE NAME CONVENTIONS
 console.log(firstName);
 console.log(firstName);
 
@@ -21,3 +18,34 @@ console.log(myCurrentOccupation);
 let country = "India";
 let population = 1400;
 let continent = "Asia";
+console.log(country, population, continent);*/
+
+let javaScriptIsFun = true;
+console.log(javaScriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javaScriptIsFun);
+console.log(typeof 23);
+console.log(typeof "Yogeesh");
+
+javaScriptIsFun = "YES!";
+console.log(javaScriptIsFun);
+console.log(typeof javaScriptIsFun);
+
+//                                                                         UNDEFINED DATA TYPES
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1998;
+console.log(year);
+console.log(typeof year);
+
+console.log(typeof null);
+//                                                                          ASSIGNMENT
+let country = "India";
+let population = 1400;
+let continent = "Asia";
+let isIsland = false;
+let language;
+console.log(isIsland, population, country, language);
