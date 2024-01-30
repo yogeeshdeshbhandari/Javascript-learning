@@ -2,3 +2,22 @@ let js = "amazing";
 if (js === "amazing") alert("JavaScript is Funnnn!");
 
 console.log (100 - 50 + 5);
+
+console.log("Yogeesh");
+
+let firstName = "Darshan";
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+let first_name = "Naveen";
+console.log(first_name);
+
+let myFirstOccupation = "Student";
+console.log(myFirstOccupation);
+let myCurrentOccupation = "Working proffesional";
+console.log(myCurrentOccupation);
+
+let country = "India";
+let population = 1400;
+let continent = "Asia";
