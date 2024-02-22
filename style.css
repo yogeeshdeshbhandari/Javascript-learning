@@ -20,7 +20,7 @@ let population = 1400;
 let continent = "Asia";
 console.log(country, population, continent);*/
 
-let javaScriptIsFun = true;
+/* let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
 console.log(typeof true);
@@ -48,7 +48,7 @@ let population = 1400;
 let continent = "Asia";
 let isIsland = false;
 let language;
-console.log(isIsland, population, country, language);
+console.log(isIsland, population, country, language); */
 
 /* Declaring the Variables - let, const and var */
 /*let age = 30;
