@@ -152,4 +152,4 @@ if (birthYear <= 2000) {
   century = 21;
 }
 console.log(century);*/
-console.log (`General String...!!!`);
+console.log ("hello world");
