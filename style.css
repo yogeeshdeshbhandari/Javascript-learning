@@ -49,3 +49,107 @@ let continent = "Asia";
 let isIsland = false;
 let language;
 console.log(isIsland, population, country, language);
+
+/* Declaring the Variables - let, const and var */
+/*let age = 30;
+age = 31;
+
+const birthday = 1991;
+// birthday = 1990;
+
+// const job;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Deshbhandari";
+console.log(lastName);*/
+
+/*//Basic operator
+//Arithmatic Operator
+const now = 2024;
+const ageYogeesh = now - 1998;
+const ageDarshan = now - 2001;
+console.log(ageYogeesh, ageDarshan);
+
+console.log(ageYogeesh * 2, ageDarshan / 10, 2 ** 3);
+//2**4 means 2 to the power of 3 = 2*2*2*
+//+ operator
+const firstName = "Yogeesh";
+const lastName = "Bhandari";
+console.log(firstName + " " + lastName);
+
+//typeof Operator
+
+//Assignment Operator.
+let x = 10 + 5; //15
+x += 10; // x = x+10
+x *= 4; //x = x*4
+x++; // x = x+1
+x--; // x = x-1
+x--;
+console.log(x);
+
+//comparision operator
+console.log(ageYogeesh > ageDarshan); // <, >, <=, >=
+console.log(ageDarshan >= 18);
+console.log(ageDarshan >= 25);
+
+const majority = ageDarshan >= 18;
+console.log(now - 1991 > now - 2018);
+
+let a = 10;
+a += 5;
+console.log(a);*/
+
+/*const now = 2024;
+const ageYogeesh = now - 1998;
+const ageDarshan = now - 2001;
+console.log(ageYogeesh, ageDarshan);
+
+console.log(now - 1991 > now - 2018);
+
+const averageAge = (ageYogeesh + ageDarshan) / 2;
+console.log(ageYogeesh, ageDarshan, averageAge);*/
+
+/*const firstName = "Yogeesh";
+const job = "programmer";
+const birthYear = 1998;
+const year = 2024;
+
+const yogeesh =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(yogeesh);
+
+const yogeeshNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(yogeeshNew);
+
+console.log(`Just a regular string...`);
+
+console.log(
+  "String with \n\
+multiple \n\
+lines"
+);
+
+console.log(`String with
+multiple
+linesS
+`);*/
+
+const age = 15;
+if (age >= 18) {
+  console.log(`You can start driving license 🚗`);
+} else {
+  console.log(` Age is too young, Wait another ${18 - age} years !!`);
+}
+
+const birthYear = 2001;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
